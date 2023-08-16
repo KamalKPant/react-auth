@@ -36,8 +36,8 @@ passport.use(new LocalStrategy(
 
 // Passport configuration for Google OAuth
 passport.use(new GoogleStrategy({
-  clientID: '793659769594-cnevddj625b2rgr37haaoo9867obhql1.apps.googleusercontent.com',
-  clientSecret: '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',
+  clientID: 'clientID',
+  clientSecret: 'clientSecret',
   callbackURL: 'http://localhost:3000/auth/google/callback', // Change this URL as needed
 },
 (accessToken, refreshToken, profile, done) => {
